@@ -1,0 +1,218 @@
+{
+    "now-verivery" : {
+        "name"  : "NOW VERIVERY OST",
+        "year"  : 2018,
+        "desc" : "Real Road Movie [NOW VERIVERY] OST",
+        "link"  : "now-verivery",
+        "cover" : "assets/albums/super-special.png",
+        "primary"   : "#4406ee",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "Super Special", "link" : "super-special"}
+        ]
+    },
+    "veri-us" : {
+        "name"  : "VERI-US",
+        "year"  : 2019,
+        "desc"  : "1st Mini Album",
+        "link"  : "veri-us",
+        "cover" : "assets/albums/veri-us.png",
+        "primary"   : "#059F72",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "Ring Ring Ring", "link" : "ring-ring-ring"},
+            {"track" : 2, "name" : "Flower", "link" : "flower"},
+            {"track" : 3, "name" : "F.I.L", "link" : "fil"},
+            {"track" : 4, "name" : "Alright!", "link" : "alright"},
+            {"track" : 5, "name" : "Super Special (Acoustic Ver.)", "link" : "super-special-acoustic"}
+        ]
+    },
+    "veri-able" : {
+        "name"  : "VERI-ABLE",
+        "year"  : 2019,
+        "desc"  : "2nd Mini Album",
+        "link"  : "veri-able",
+        "cover" : "assets/albums/veri-able.png",
+        "primary"   : "#7fb4d8",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "From Now", "link" : "from-now"},
+            {"track" : 2, "name" : "Love Line", "link" : "love-line"},
+            {"track" : 3, "name" : "All I Do", "link" : "all-i-do"},
+            {"track" : 4, "name" : "Get Ready", "link" : "get-ready"},
+            {"track" : 5, "name" : "Light Up", "link" : "light-up"}
+        ]
+    },
+    "magic-hour" : {
+        "name"  : "trinityACE - Magic Hour",
+        "year"  : 2019,
+        "desc"  : "Elsword Project EL★STAR",
+        "link"  : "magic-hour",
+        "cover" : "assets/albums/magic-hour.png",
+        "primary"   : "#2844ab",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "Magic Hour", "link" : "magic-hour"}
+        ]
+    },
+    "veri-chill" : {
+        "name"  : "VERI-CHILL",
+        "year"  : 2019,
+        "desc"  : "1st Single Album",
+        "link"  : "veri-chill",
+        "cover" : "assets/albums/veri-chill.png",
+        "primary"   : "#E61B10",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "Tag Tag Tag", "link" : "tag-tag-tag"},
+            {"track" : 2, "name" : "Mystery light", "link" : "mystery-light"}
+        ]
+    },
+    "extraordinary-you" : {
+        "name"  : "Extraordinary You OST Part.2",
+        "year"  : 2019,
+        "desc"  : "MBC Drama [Extraordinary You] OST",
+        "link"  : "extraordinary-you",
+        "cover" : "assets/albums/my-beauty.png",
+        "primary"   : "#36B691",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "My Beauty", "link" : "my-beauty"}
+        ]
+    },
+    "face-me" : {
+        "name"  : "FACE ME",
+        "year"  : 2020,
+        "desc"  : "3rd Mini Album",
+        "link"  : "face-me",
+        "cover" : "assets/albums/face-me.png",
+        "primary"   : "#7707F9",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "PHOTO", "link" : "photo"},
+            {"track" : 2, "name" : "Lay Back", "link" : "lay-back"},
+            {"track" : 3, "name" : "Paradise", "link" : "paradise"},
+            {"track" : 4, "name" : "Curtain Call", "link" : "curtain-call"},
+            {"track" : 5, "name" : "MOMENT", "link" : "moment"}
+        ]
+    },
+    "itaewon-class" : {
+        "name"  : "Itaewon Class OST Part.7",
+        "year"  : 2020,
+        "desc"  : "JTBC Drama [Itaewon Class] OST",
+        "link"  : "itaewon-class",
+        "cover" : "assets/albums/with-us.png",
+        "primary"   : "#88a6ec",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "With Us", "link" : "with-us"}
+        ]
+    },
+    "face-you" : {
+        "name"  : "FACE YOU",
+        "year"  : 2020,
+        "desc"  : "4th Mini Album",
+        "link"  : "face-you",
+        "cover" : "assets/albums/face-you.png",
+        "primary"   : "#DFDFDF",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "Thunder", "link" : "thunder"},
+            {"track" : 2, "name" : "Connect", "link" : "connect"},
+            {"track" : 3, "name" : "SKYDIVE", "link" : "skydive"},
+            {"track" : 4, "name" : "Beautiful-x", "link" : "beautiful-x"},
+            {"track" : 5, "name" : "Privacy", "link" : "privacy"}
+        ]
+    },
+    "face-us" : {
+        "name"  : "FACE US",
+        "year"  : 2020,
+        "desc"  : "5th Mini Album",
+        "link"  : "face-us",
+        "cover" : "assets/albums/face-us.png",
+        "primary"   : "#D5C6A7",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "G.B.T.B.", "link" : "gbtb"},
+            {"track" : 2, "name" : "MY FACE", "link" : "my-face"},
+            {"track" : 3, "name" : "Hold me tight", "link" : "hold-me-tight"},
+            {"track" : 4, "name" : "Get Outta My Way", "link" : "get-outta-my-way"},
+            {"track" : 5, "name" : "So gravity", "link" : "so-gravity"}
+        ]
+    },
+    "gbtb-remix" : {
+        "name"  : "G.B.T.B. Remix : VOL.1",
+        "year"  : 2019,
+        "desc"  : "1st Remix Single",
+        "link"  : "gbtb-remix",
+        "cover" : "assets/albums/gbtb-strong-dragon.png",
+        "primary"   : "#A79266",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "G.B.T.B. (Strong Dragon Remix)", "link" : "gbtb-strong-dragon"}
+        ]
+    },
+    "hall" : {
+        "name"  : "SERIES 'O' [ROUND 1 : HALL]",
+        "year"  : 2021,
+        "desc"  : "2nd Single Album",
+        "link"  : "hall",
+        "cover" : "assets/albums/series-o-hall.png",
+        "primary"   : "#CCAA70",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "Get Away", "link" : "get-away"},
+            {"track" : 2, "name" : "Numbness", "link" : "numbness"}
+        ]
+    },
+    "hole" : {
+        "name"  : "SERIES 'O' [ROUND 2 : HOLE]",
+        "year"  : 2021,
+        "desc"  : "6th Mini Album",
+        "link"  : "hole",
+        "cover" : "assets/albums/series-o-hole.png",
+        "primary"   : "#585C5D",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "TRIGGER", "link" : "trigger"},
+            {"track" : 2, "name" : "Underdog", "link" : "underdog"},
+            {"track" : 3, "name" : "Prom", "link" : "prom"},
+            {"track" : 4, "name" : "Heart Attack", "link" : "heart-attack"}
+        ]
+    },
+    "who" : {
+        "name"  : "SERIES 'O' [ROUND 0 : WHO]",
+        "year"  : 2021,
+        "desc"  : "Digital Single",
+        "link"  : "who",
+        "cover" : "assets/albums/series-o-who.png",
+        "primary"   : "#EA9677",
+        "secondary" : "black",
+        "tracks": [
+            {"track" : 1, "name" : "O", "link" : "o"},
+            {"track" : 2, "name" : "Wait, Spring", "link" : "wait-spring"}
+        ]
+    },
+    "veriground" : {
+        "name"  : "VERIground",
+        "year"  : 2021,
+        "desc"  : "VERIVERY's Self-Written Songs",
+        "link"  : "veriground",
+        "cover" : "assets/albums/veriground.png",
+        "primary"   : "#585C5D",
+        "secondary" : "white",
+        "tracks": [
+            {"track" : 1, "name" : "Love at first sight", "link" : "love-at-first-sight"},
+            {"track" : 2, "name" : "SUMMER LAND", "link" : "summer-land"},
+            {"track" : 3, "name" : "Lov U 2", "link" : "lov-u2"},
+            {"track" : 4, "name" : "Ocean", "link" : "ocean"},
+            {"track" : 5, "name" : "GRIP TOK", "link" : "grip-tok"},
+            {"track" : 6, "name" : "Velocity", "link" : "velocity"},
+            {"track" : 7, "name" : "Four Season", "link" : "four-season"},
+            {"track" : 8, "name" : "Gala&Dali", "link" : "gala-dali"},
+            {"track" : 9, "name" : "Gallery", "link" : "gallery"},
+            {"track" : 10, "name" : "Sneakers", "link" : "sneakers"},
+            {"track" : 11, "name" : "Broken", "link" : "broken"}
+        ]
+    }
+}

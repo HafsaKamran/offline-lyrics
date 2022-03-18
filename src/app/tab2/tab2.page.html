@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <ion-title class="title">
+      Songs
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar class="stick" (ionChange)="filterList($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item
+      *ngFor="let song of songs"
+      lines="none"
+      button=true
+      routerLink="/lyrics/{{ song.link }}"
+      routerDirection="forward">
+      <ion-thumbnail slot="start">
+        <img src="{{ song.cover }}">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <ion-text>
+          <h2 style="font-weight: bold;"> {{ song.name }} </h2>
+        </ion-text>
+        <ion-text>
+          <p style="color:rgb(100, 100, 100);" [innerHTML]="song.album"></p>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

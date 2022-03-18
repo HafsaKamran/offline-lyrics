@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar class="item-styling">
+
+    <ion-buttons>
+      <ion-back-button defaultHref="/albums"></ion-back-button>
+    </ion-buttons>
+
+    <ion-item class="item-styling" lines="none">
+      <ion-thumbnail slot="start">
+        <img src="{{ currentAlbum.cover }}">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <ion-text>
+          <h2 style="font-weight: bold;"> {{ currentAlbum.name }} </h2>
+        </ion-text>
+        <ion-text>
+          <p style="opacity: 0.75;" [innerHTML]="currentAlbum.desc"></p>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <!-- <ion-item lines="none"> -->
+      <!-- <ion-label> -->
+        <ion-text>
+          <h5 style="font-weight: bold; padding-left: 20px;"> Tracks </h5>
+        </ion-text>
+      <!-- </ion-label> -->
+    <!-- </ion-item> -->
+    <ion-item
+    *ngFor="let track of currentAlbum.tracks"
+      lines="none"
+      button=true
+      routerLink="/lyrics/{{ track.link }}"
+      routerDirection="forward">
+      <ion-avatar slot="start">
+        <img src="assets/{{track.track}}.png">
+      </ion-avatar>
+      <ion-label text-wrap>
+        <ion-text>
+          <h2> {{ track.name }} </h2>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

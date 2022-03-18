@@ -1,0 +1,7 @@
+{
+  "name": "lyrics-offline",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

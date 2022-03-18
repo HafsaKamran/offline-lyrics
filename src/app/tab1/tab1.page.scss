@@ -1,0 +1,15 @@
+ion-item{
+    --inner-padding-bottom: 10px;
+    --inner-padding-top: 10px;
+    --ripple-color: #8E256A;
+}
+
+ion-thumbnail {
+    --border-radius: 5px;
+    width: 65px;
+    height: 65px;
+}
+
+.stick{
+    position: sticky;
+}

@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar class="item-styling">
+
+    <ion-buttons>
+      <ion-back-button defaultHref="/songs"></ion-back-button>
+    </ion-buttons>
+
+    <!-- <ion-title>{{ currentSong.title }}</ion-title> -->
+
+    <ion-item class="item-styling" lines="none">
+      <ion-thumbnail slot="start">
+        <img src="{{ currentSong.cover }}">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <ion-text>
+          <h2 style="font-weight: bold;"> {{ currentSong.title }} </h2>
+        </ion-text>
+        <ion-text>
+          <p style="opacity: 0.75;" [innerHTML]="currentSong.album"></p>
+        </ion-text>
+      </ion-label>
+    </ion-item>
+
+  </ion-toolbar>
+
+  <ion-toolbar>
+
+    <ion-segment swipe-gesture="true" (ionChange)="segmentChanged($event)" value="hangul">
+      <ion-segment-button value="hangul">
+        <ion-label>Hangul</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="romanized">
+        <ion-label>Romanized</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="english">
+        <ion-label>English</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <!-- <ion-buttons>
+    <ion-button color="primary" shape="round">Hangul</ion-button>
+    <ion-button>Romanized</ion-button>
+    <ion-button>English</ion-button>
+  </ion-buttons> -->
+  <ion-text *ngFor="let line of currentSong.hangul" style="padding: 20px;">
+    {{ line }} <br>
+  </ion-text>
+</ion-content>

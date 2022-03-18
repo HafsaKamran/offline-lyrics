@@ -1,0 +1,20 @@
+ion-toolbar {
+    height: 150px;
+}
+
+ion-item{
+    --inner-padding-bottom: 10px;
+    --inner-padding-top: 10px;
+    --ripple-color: var(--primary-color);
+}
+
+ion-thumbnail {
+    --border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.item-styling{
+    --background: var(--primary-color);
+    --color: var(--secondary-color);
+}
