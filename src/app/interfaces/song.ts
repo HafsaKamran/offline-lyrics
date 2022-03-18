@@ -1,5 +1,5 @@
 export interface Song {
-    name    : string,
+    title    : string,
     album   : string,
     cover   : string,
     primary : string,

@@ -23,7 +23,7 @@
 
   </ion-toolbar>
 
-  <ion-toolbar>
+  <ion-toolbar class="item-styling">
 
     <ion-segment swipe-gesture="true" (ionChange)="segmentChanged($event)" value="hangul">
       <ion-segment-button value="hangul">
@@ -42,12 +42,8 @@
 
 
 <ion-content>
-  <!-- <ion-buttons>
-    <ion-button color="primary" shape="round">Hangul</ion-button>
-    <ion-button>Romanized</ion-button>
-    <ion-button>English</ion-button>
-  </ion-buttons> -->
-  <ion-text *ngFor="let line of currentSong.hangul" style="padding: 20px;">
+  <br>
+  <ion-text *ngFor="let line of activeLang" style="padding: 20px;">
     {{ line }} <br>
   </ion-text>
 </ion-content>
